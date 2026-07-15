@@ -1,6 +1,4 @@
-import './styles.css';
-
-document.addEventListener('DOMContentLoaded', init);
+﻿document.addEventListener('DOMContentLoaded', init);
 
 function init() {
   setupNav();
