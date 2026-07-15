@@ -1,5 +1,4 @@
-ye paste kardu vita config file mai
- import path from "path";
+import path from "path";
 import { defineConfig } from "vite";
 
 const port = Number(process.env.PORT || 5173);
@@ -7,7 +6,7 @@ const basePath = process.env.BASE_PATH || "/";
 
 export default defineConfig({
   base: basePath,
-  plugins: [],
+  plugins: [],g
   root: path.resolve(import.meta.dirname),
   build: {
     outDir: path.resolve(import.meta.dirname, "dist/public"),
