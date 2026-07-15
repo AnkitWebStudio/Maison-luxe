@@ -1,40 +1,36 @@
-import path from 'path';
-import { defineConfig } from 'vite';
+ye paste kardu vita config file mai
+ import path from "path";
+import { defineConfig } from "vite";
 
-const rawPort = process.env.PORT;
-if (!rawPort) throw new Error('PORT environment variable is required but was not provided.');
-const port = Number(rawPort);
-if (Number.isNaN(port) || port <= 0) throw new Error(`Invalid PORT value: "${rawPort}"`);
-
-const basePath = process.env.BASE_PATH;
-if (!basePath) throw new Error('BASE_PATH environment variable is required but was not provided.');
+const port = Number(process.env.PORT || 5173);
+const basePath = process.env.BASE_PATH || "/";
 
 export default defineConfig({
   base: basePath,
   plugins: [],
   root: path.resolve(import.meta.dirname),
   build: {
-    outDir: path.resolve(import.meta.dirname, 'dist/public'),
+    outDir: path.resolve(import.meta.dirname, "dist/public"),
     emptyOutDir: true,
     rollupOptions: {
       input: {
-        main: path.resolve(import.meta.dirname, 'index.html'),
-        heritage: path.resolve(import.meta.dirname, 'heritage.html'),
-        collection: path.resolve(import.meta.dirname, 'collection.html'),
-        product: path.resolve(import.meta.dirname, 'product.html'),
-        bespoke: path.resolve(import.meta.dirname, 'bespoke.html'),
+        main: path.resolve(import.meta.dirname, "index.html"),
+        heritage: path.resolve(import.meta.dirname, "heritage.html"),
+        collection: path.resolve(import.meta.dirname, "collection.html"),
+        product: path.resolve(import.meta.dirname, "product.html"),
+        bespoke: path.resolve(import.meta.dirname, "bespoke.html"),
       },
     },
   },
   server: {
     port,
     strictPort: true,
-    host: '0.0.0.0',
+    host: "0.0.0.0",
     allowedHosts: true,
   },
   preview: {
     port,
-    host: '0.0.0.0',
+    host: "0.0.0.0",
     allowedHosts: true,
   },
 });
