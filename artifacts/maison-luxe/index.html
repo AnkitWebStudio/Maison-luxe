@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MAISON LUXE — Understated Elegance</title>
+  <meta name="description" content="Maison Luxe — A century of quiet luxury. Bespoke garments and curated objects of extraordinary craft." />
+  <meta property="og:title" content="MAISON LUXE" />
+  <meta property="og:description" content="A century of quiet luxury. Bespoke garments and curated objects of extraordinary craft." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=block" rel="stylesheet" />
+  <script type="module" src="/src/main.js"></script>
+</head>
+<body>
+
+<!-- ── Navigation ───────────────────────────────────────── -->
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <ul class="nav-links">
+      <li><a href="/heritage.html" class="nav-link">Heritage</a></li>
+      <li><a href="/collection.html" class="nav-link">Collection</a></li>
+    </ul>
+
+    <a href="/index.html" class="nav-logo">MAISON LUXE</a>
+
+    <div class="nav-actions">
+      <ul class="nav-links">
+        <li><a href="/bespoke.html" class="nav-link">Bespoke</a></li>
+      </ul>
+      <button class="nav-icon" aria-label="Shopping bag">
+        <span class="material-symbols-outlined">shopping_bag</span>
+      </button>
+      <button class="nav-hamburger" id="navHamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="nav-mobile" id="navMobile">
+  <a href="/heritage.html" class="nav-link">Heritage</a>
+  <a href="/collection.html" class="nav-link">Collection</a>
+  <a href="/bespoke.html" class="nav-link">Bespoke</a>
+</div>
+
+<!-- ── Hero ─────────────────────────────────────────────── -->
+<section class="hero">
+  <img
+    class="hero-img"
+    src="https://lh3.googleusercontent.com/aida-public/AB6AXuB6Ix4RYEAZnQYh8KuP-ontyRKRnAjs0XVND_E-f3Awo0z8o6SYHe44WONsNXekHleRyAmeM3RaNQtBSbK1fcOhdz5ztMvV-WBHaRGaQqlEzdwnIWiu4e4jghsRMBQilOCcRq-s3ZA1gsxm5Ih-sYYj5P0KbcVJLSQlGAfVqNzWPnON5O2KAgJpAG-u55zKcPDXC_PNJGAyXV4F3tPuYWPda-biRkmzAGLP_cimxH4zscM1u2_H_IYiKQ"
+    alt="Hero — The Autumn Collection"
+  />
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <p class="hero-eyebrow">Autumn — Winter Collection</p>
+    <h1 class="hero-title">The Autumn<br/>Collection</h1>
+    <p class="hero-subtitle">Understated elegance redefined. Discover our latest curation of timeless silhouettes.</p>
+    <div class="hero-cta">
+      <a href="/collection.html" class="btn btn-primary">Explore Collection</a>
+    </div>
+  </div>
+  <div class="hero-scroll">
+    <div class="hero-scroll-line"></div>
+    <span>Scroll</span>
+  </div>
+</section>
+
+<!-- ── Curated Selections ────────────────────────────────── -->
+<section class="curated">
+  <div class="container">
+    <div class="curated-header reveal">
+      <div>
+        <span class="section-eyebrow">The Selection</span>
+        <h2 class="t-headline">Curated Objects</h2>
+      </div>
+      <a href="/collection.html" class="btn btn-ghost">View All</a>
+    </div>
+
+    <div class="grid-12" style="row-gap:80px;">
+      <!-- Item 1 — 7 cols -->
+      <div class="product-card reveal" style="grid-column:span 7;">
+        <a href="/product.html">
+          <div class="product-img-wrap aspect-45">
+            <img
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuDpV9oQZ8CbaS7Ik3iV0hFofYCzxlgJ5HiblGXXyZXbf5l6hSC1v40GDn0Az8hQNOb-2h_9dMq2IAiY2FABBA3LoTHrgZE6FzEP4EZ9nMI-3wPKwnJjT6IuEOnKuTZH6usWcO-MIlNer_jxQe1rO-4Ejr90-rMn7LQWPpk7b_-vg5unmL4TeGXTxWcuqVb97cfzXeQwQUMr_Bz1nvjA03APh6h-FOGhMgCPWm6QMznYXOnRnTXtnwNWeA"
+              alt="The Aris Tote — Noir Pebble Leather"
+              loading="lazy"
+            />
+            <div class="product-overlay">
+              <span class="product-overlay-btn">View Details</span>
+            </div>
+          </div>
+        </a>
+        <div class="product-info">
+          <div class="product-meta">
+            <div>
+              <p class="product-name">The Aris Tote</p>
+              <p class="product-material">Noir Pebble Leather</p>
+            </div>
+            <span class="product-price">$1,250</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Spacer -->
+      <div style="grid-column:span 1; display:none;" class="hide-mobile"></div>
+
+      <!-- Item 2 — 4 cols, offset -->
+      <div class="product-card reveal reveal-delay-2" style="grid-column:span 4; margin-top:100px;">
+        <a href="/product.html">
+          <div class="product-img-wrap aspect-square">
+            <img
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuDCqJBEeSIlzX-yvsULcptAFIjlL3x9alk5oGdjpNryDO4a3Yg9BCm_WJL9q0_R6Y7Gzk8YqlwmiGrEmSSUjZGLIUEO6BsiMD3ux5biJKXGekq6S9v8rHcz3HfswY7WzTLx3-8a3K3_8JvnxTqMXHxMlRnXsqacKAKa5BFpHejvGtfuSyZjDxyNEFRgzbcEaz5OqjvOZbYspbB5QLkFlIa2YaMVt6H38hLCvTtBaqRGEhyfT9lFsUPcCw"
+              alt="Structural Vase — Matte Bone"
+              loading="lazy"
+            />
+            <div class="product-overlay">
+              <span class="product-overlay-btn">View Details</span>
+            </div>
+          </div>
+        </a>
+        <div class="product-info">
+          <div class="product-meta">
+            <div>
+              <p class="product-name">Structural Vase</p>
+              <p class="product-material">Matte Bone Ceramic</p>
+            </div>
+            <span class="product-price">$480</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── The Craft ─────────────────────────────────────────── -->
+<section class="craft-section">
+  <div class="container">
+    <div class="craft-inner">
+      <div class="craft-img-wrap reveal">
+        <div class="craft-img-accent"></div>
+        <img
+          src="https://lh3.googleusercontent.com/aida-public/AB6AXuAHEbiXkV6yyzLG7ENjrkQ5w0svusEZ5F_8pbvY1_qj01gTejYModmKdXleLfhMPx1ufQHepkesScum0hXSSuooOQqUM708rkrXN97WtGtI1zs7ro6c490Lb3173ifDJd-b-JLZgxqIzb4FTNR65G9abOcC5p_thc6s5Pk9jqdvvDG4sLJhmxzO8Fi3peK2Pmxz2nfdJhvEIMCLB7qa7J85IGPD6cwdUbA1d_oeF315l3RmGINaUF79QA"
+          alt="Artisan Craftsmanship"
+          loading="lazy"
+          style="width:100%;height:100%;object-fit:cover;"
+        />
+      </div>
+      <div class="craft-text reveal reveal-delay-2">
+        <span class="section-eyebrow">Heritage</span>
+        <h2 class="t-headline" style="margin-bottom:24px;">The Craft</h2>
+        <p class="t-body-lg muted" style="margin-bottom:36px;">
+          Every piece in our collection is a testament to unhurried dedication.
+          We reject the ephemeral in favour of the enduring — partnering with
+          generational artisans who breathe life into raw materials through
+          meticulous, time-honoured techniques.
+        </p>
+        <a href="/heritage.html" class="btn btn-ghost">
+          Discover Our Process
+          <span class="material-symbols-outlined" style="font-size:16px;font-variation-settings:'wght' 300;">arrow_right_alt</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Manifesto ─────────────────────────────────────────── -->
+<section class="manifesto">
+  <div class="container">
+    <div class="manifesto-inner reveal">
+      <div class="gold-line" style="margin-inline:auto;"></div>
+      <blockquote class="manifesto-quote">
+        "True luxury is not about abundance — it is about the quiet confidence of knowing that what you own was made to last a lifetime."
+      </blockquote>
+      <p class="manifesto-attr">— The Maison Luxe Atelier, Paris, 1924</p>
+    </div>
+  </div>
+</section>
+
+<!-- ── Second Product Row ────────────────────────────────── -->
+<section style="padding-bottom:var(--stack-xl);background:var(--bg-alt);border-top:1px solid var(--border-subtle);">
+  <div class="container" style="padding-top:var(--stack-xl);">
+    <div class="grid-12" style="row-gap:56px;">
+      <div class="product-card reveal" style="grid-column:span 4;">
+        <a href="/product.html">
+          <div class="product-img-wrap" style="aspect-ratio:3/4;">
+            <img
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuBPIePgT8S_k54ZpIiFLh4Ml1lLVdtcuJQXZYKzP6bSr-v-wpp5NxdIqGTO1Zxhep_klFv56uiS602jzSmri1QBwCTL4pB064gWTX5Rqoi3vM-oyqAPvhyD8a8v8YtkAspy8foqEr90cwiQeqT2m5DczHhYoU4qDt_FkhQsjR9VrYCeaeCRip2CZpF-nSRayvm5LJmECDmPTvlY9F-IHd7HUQN9vWfPUaI9AdSvozNJ7ZfR8PVDCdJFSQ"
+              alt="Monolith Luminaire"
+              loading="lazy"
+            />
+            <div class="product-overlay"><span class="product-overlay-btn">View Details</span></div>
+          </div>
+        </a>
+        <div class="product-info">
+          <div class="product-meta">
+            <div>
+              <p class="product-name">Monolith Luminaire</p>
+              <p class="product-material">Alabaster &amp; Charcoal Steel</p>
+            </div>
+            <span class="product-price">$2,850</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-card reveal reveal-delay-1" style="grid-column:span 4;margin-top:60px;">
+        <a href="/product.html">
+          <div class="product-img-wrap" style="aspect-ratio:3/4;">
+            <img
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuDeBNHBgmYffzab_u3n58RLfY4o_C7NlwSvb_8QQ3uEok1Z3Dy2OClRu2NbINFhrEP26dRfp-I9bjjHqBULtmkXP7nvKToM2IynFZ142rCoRa1vlmgwm_8DbLYO2XwQRq7KuSzCQJe_f2g0c1DGptP5Wbc_ik4w58JpWnvKpYPRPiC61eIe-QGJjmar23V9zbg8qI-5_Nh7nPPSrfOocSM_tefP-_8AJSgvbveu-keWROA6NReZkTQ-Mg"
+              alt="Petra Side Table"
+              loading="lazy"
+            />
+            <div class="product-overlay"><span class="product-overlay-btn">View Details</span></div>
+          </div>
+        </a>
+        <div class="product-info">
+          <div class="product-meta">
+            <div>
+              <p class="product-name">Petra Side Table</p>
+              <p class="product-material">Solid Travertine</p>
+            </div>
+            <span class="product-price">$1,400</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-card reveal reveal-delay-2" style="grid-column:span 4;">
+        <a href="/product.html">
+          <div class="product-img-wrap" style="aspect-ratio:3/4;">
+            <img
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuBP1XMZ3jBGdzmixqmS_PU-hrGIVBHnk180tfXP0ooNlXjCFxDosKNeVepmhb-QPLMiLRipZpVrxpwqz95BnYQrBa6QcAtBZ77hf6x922R6z5XB-BJ0Ln3ct7fxFpktlGGMTP-_enEZ9epj050laTojCHnYRGMXbhxght9dxRapfcL9Bg5WHBy3gCUELN46yyfMwUYtX8n-g01YdBEDn2d610O9ylLW37mA3Wi-SL-Er79r_ZoXPjLcUQ"
+              alt="Linea Dining Chair"
+              loading="lazy"
+            />
+            <div class="product-overlay"><span class="product-overlay-btn">View Details</span></div>
+          </div>
+        </a>
+        <div class="product-info">
+          <div class="product-meta">
+            <div>
+              <p class="product-name">Linea Dining Chair</p>
+              <p class="product-material">Camel Leather &amp; Matte Iron</p>
+            </div>
+            <span class="product-price">$850</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="margin-top:72px;padding-top:40px;border-top:1px solid var(--border-subtle);display:flex;justify-content:center;" class="reveal">
+      <a href="/collection.html" class="btn btn-gold-outline">Explore the Full Collection</a>
+    </div>
+  </div>
+</section>
+
+<!-- ── Footer ────────────────────────────────────────────── -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-main">
+      <div>
+        <a href="/index.html" class="footer-logo">MAISON LUXE</a>
+        <p class="footer-tagline">Defining the intersection of minimalist design and uncompromising quality.</p>
+      </div>
+      <div class="footer-nav-cols">
+        <div>
+          <span class="footer-nav-col-title">Explore</span>
+          <a href="/heritage.html" class="footer-link">Heritage</a>
+          <a href="/collection.html" class="footer-link">Collection</a>
+          <a href="/bespoke.html" class="footer-link">Bespoke</a>
+        </div>
+        <div>
+          <span class="footer-nav-col-title">Company</span>
+          <a href="#" class="footer-link">Sustainability</a>
+          <a href="#" class="footer-link">Care Guide</a>
+          <a href="#" class="footer-link">Journal</a>
+        </div>
+        <div>
+          <span class="footer-nav-col-title">Legal</span>
+          <a href="#" class="footer-link">Privacy</a>
+          <a href="#" class="footer-link">Terms</a>
+          <a href="#" class="footer-link">Cookies</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="footer-copy">© 2024 MAISON LUXE. ALL RIGHTS RESERVED.</p>
+      <div class="footer-socials">
+        <a href="#" class="footer-social">Instagram</a>
+        <a href="#" class="footer-social">Pinterest</a>
+        <a href="#" class="footer-social">Journal</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

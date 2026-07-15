@@ -1,0 +1,282 @@
+<!DOCTYPE html><html lang="en" class="scroll-smooth"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&amp;family=Playfair+Display:wght@400&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=block" rel="stylesheet"><script id="tailwind-config">try{
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "tertiary-fixed": "#ffdea5",
+                        "inverse-surface": "#2f3131",
+                        "surface-tint": "#5f5e5e",
+                        "outline": "#747878",
+                        "surface-container-lowest": "#ffffff",
+                        "on-secondary-container": "#6c614e",
+                        "surface-dim": "#dadada",
+                        "surface-container": "#eeeeee",
+                        "error-container": "#ffdad6",
+                        "on-surface-variant": "#444748",
+                        "secondary-fixed": "#f0e0c8",
+                        "background": "#f9f9f9",
+                        "on-tertiary-fixed": "#261900",
+                        "tertiary-fixed-dim": "#e9c176",
+                        "surface-variant": "#e2e2e2",
+                        "primary-container": "#1c1b1b",
+                        "surface-container-high": "#e8e8e8",
+                        "on-primary-fixed-variant": "#474746",
+                        "surface-container-low": "#f3f3f4",
+                        "on-secondary-fixed-variant": "#4f4533",
+                        "secondary": "#685d4a",
+                        "on-primary-container": "#858383",
+                        "secondary-container": "#eddec5",
+                        "on-error-container": "#93000a",
+                        "on-primary": "#ffffff",
+                        "on-secondary-fixed": "#221b0b",
+                        "on-tertiary-container": "#a17f3b",
+                        "inverse-primary": "#c8c6c5",
+                        "inverse-on-surface": "#f0f1f1",
+                        "outline-variant": "#c4c7c7",
+                        "on-primary-fixed": "#1c1b1b",
+                        "primary-fixed-dim": "#c8c6c5",
+                        "on-surface": "#1a1c1c",
+                        "error": "#ba1a1a",
+                        "on-error": "#ffffff",
+                        "primary": "#000000",
+                        "surface-bright": "#f9f9f9",
+                        "on-background": "#1a1c1c",
+                        "surface-container-highest": "#e2e2e2",
+                        "on-secondary": "#ffffff",
+                        "tertiary-container": "#261900",
+                        "on-tertiary-fixed-variant": "#5d4201",
+                        "surface": "#f9f9f9",
+                        "primary-fixed": "#e5e2e1",
+                        "tertiary": "#000000",
+                        "on-tertiary": "#ffffff",
+                        "secondary-fixed-dim": "#d3c5ad",
+                        "subtle-gold": "#C5A059" // Adding specific brand color mentioned in guidance
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "gutter": "24px",
+                        "stack-md": "40px",
+                        "container-max": "1440px",
+                        "margin-desktop": "80px",
+                        "stack-lg": "80px",
+                        "margin-tablet": "40px",
+                        "margin-mobile": "20px",
+                        "stack-xl": "120px"
+                    },
+                    "fontFamily": {
+                        "label-sm": ["Montserrat", "sans-serif"],
+                        "body-lg": ["Montserrat", "sans-serif"],
+                        "display-xl": ["Playfair Display", "serif"],
+                        "body-md": ["Montserrat", "sans-serif"],
+                        "nav-link": ["Montserrat", "sans-serif"],
+                        "headline-lg": ["Playfair Display", "serif"],
+                        "headline-md": ["Playfair Display", "serif"],
+                        "headline-lg-mobile": ["Playfair Display", "serif"]
+                    },
+                    "fontSize": {
+                        "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.15em", "fontWeight": "600" }],
+                        "body-lg": ["18px", { "lineHeight": "32px", "letterSpacing": "0.05em", "fontWeight": "300" }],
+                        "display-xl": ["80px", { "lineHeight": "92px", "letterSpacing": "-0.02em", "fontWeight": "400" }],
+                        "body-md": ["16px", { "lineHeight": "28px", "letterSpacing": "0.03em", "fontWeight": "400" }],
+                        "nav-link": ["12px", { "lineHeight": "16px", "letterSpacing": "0.2em", "fontWeight": "500" }],
+                        "headline-lg": ["48px", { "lineHeight": "56px", "letterSpacing": "-0.01em", "fontWeight": "400" }],
+                        "headline-md": ["32px", { "lineHeight": "40px", "fontWeight": "400" }],
+                        "headline-lg-mobile": ["32px", { "lineHeight": "40px", "fontWeight": "400" }]
+                    }
+                }
+            }
+        }
+    }catch(_e){}</script><meta charset="utf-8"></head><body class="bg-surface-container-lowest text-on-surface font-body-md overflow-x-hidden pt-32">
+<!-- TopNavBar -->
+<header class="fixed top-0 w-full z-50 bg-surface/90 dark:bg-surface-container/90 backdrop-blur-xl border-b border-outline/10 ease-in-out transition-all duration-500">
+<div class="flex justify-between items-center px-margin-mobile md:px-margin-desktop py-6 w-full max-w-container-max mx-auto">
+<!-- Navigation Links -->
+<nav class="hidden md:flex gap-8 items-center">
+<a href="#" class="font-nav-link text-nav-link uppercase tracking-[0.2em] text-on-surface-variant dark:text-outline hover:text-primary transition-colors duration-500 hover:opacity-70 transition-opacity duration-300">Heritage</a>
+<a href="#" class="font-nav-link text-nav-link uppercase tracking-[0.2em] text-on-surface-variant dark:text-outline hover:text-primary transition-colors duration-500 hover:opacity-70 transition-opacity duration-300">Gallery</a>
+<a href="#" class="font-nav-link text-nav-link uppercase tracking-[0.2em] text-primary dark:text-on-surface border-b border-primary pb-1 ease-in-out transition-all duration-500">Collection</a>
+<a href="#" class="font-nav-link text-nav-link uppercase tracking-[0.2em] text-on-surface-variant dark:text-outline hover:text-primary transition-colors duration-500 hover:opacity-70 transition-opacity duration-300">Bespoke</a>
+</nav>
+<!-- Mobile Menu Toggle -->
+<button class="md:hidden text-primary">
+<span class="material-symbols-outlined">menu</span>
+</button>
+<!-- Brand Logo -->
+<a href="#" class="font-display-xl text-headline-md tracking-tighter text-primary dark:text-on-surface absolute left-1/2 -translate-x-1/2">
+                MAISON LUXE
+            </a>
+<!-- Trailing Actions -->
+<div class="flex items-center gap-6">
+<button class="text-primary hover:opacity-70 transition-opacity duration-300">
+<span class="material-symbols-outlined" data-icon="shopping_bag">shopping_bag</span>
+</button>
+</div>
+</div>
+</header>
+<main class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-stack-md md:py-stack-lg min-h-screen">
+<!-- Header Section -->
+<header class="mb-stack-lg text-center md:text-left flex flex-col md:flex-row justify-between items-end gap-8 reveal-on-scroll is-revealed">
+<h1 class="font-display-xl text-headline-lg-mobile md:text-display-xl text-primary max-w-2xl">The Collection</h1>
+<!-- Filters -->
+<div class="flex flex-wrap gap-6 text-on-surface-variant border-b border-outline/10 pb-4 w-full md:w-auto justify-center md:justify-end">
+<div class="relative group cursor-pointer">
+<span class="font-label-sm text-label-sm uppercase tracking-widest flex items-center gap-2 hover:text-primary transition-colors duration-300">
+                        Category <span class="material-symbols-outlined text-[16px]">expand_more</span>
+</span>
+<!-- Dropdown mock -->
+<div class="absolute top-full left-0 mt-2 bg-surface border border-outline/10 w-48 py-4 opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-300 z-10 shadow-sm">
+<div class="px-6 py-2 hover:bg-surface-variant font-body-md text-sm cursor-pointer">Seating</div>
+<div class="px-6 py-2 hover:bg-surface-variant font-body-md text-sm cursor-pointer">Tables</div>
+<div class="px-6 py-2 hover:bg-surface-variant font-body-md text-sm cursor-pointer">Lighting</div>
+</div>
+</div>
+<div class="relative group cursor-pointer">
+<span class="font-label-sm text-label-sm uppercase tracking-widest flex items-center gap-2 hover:text-primary transition-colors duration-300">
+                        Material <span class="material-symbols-outlined text-[16px]">expand_more</span>
+</span>
+</div>
+<div class="relative group cursor-pointer">
+<span class="font-label-sm text-label-sm uppercase tracking-widest flex items-center gap-2 hover:text-primary transition-colors duration-300">
+                        Collection <span class="material-symbols-outlined text-[16px]">expand_more</span>
+</span>
+</div>
+</div>
+</header>
+<!-- Gallery Grid - Asymmetrical / High-End Layout-->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-x-gutter gap-y-stack-xl">
+<!-- Product 1: Spans 7 cols -->
+<div class="md:col-span-7 product-card reveal-on-scroll">
+<div class="w-full aspect-[4/5] bg-surface-container overflow-hidden relative cursor-pointer group">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-[2000ms] ease-out" data-alt="A luxurious, minimalist lounge chair upholstered in rich, textured bouclé fabric, set against a pristine, soft-white gallery background. The lighting is high-key and diffused, casting gentle shadows that emphasize the chair's sculptural curves and the tactile quality of the material. The aesthetic is serene, elegant, and high-fashion editorial." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDOEOGUqAxzoKMisHXTbKVyRpuoc7Pp8qEbwDNiOw_xvupCKCieGRUq3BeWVzZCysWl5QtFgTk4ukQLOc6AWYYG0cL6I9Y2Xf_6mQDWEbd5tQ7d76JTOEXM0j3gX-fYFsb-4GPi0M40RruxKFw0e0fv1ePgGXo5SKD4bzrYicj1Id_v12PQt-e917E8GPV1O8yJM0x01dR8xi1_MjJc4W34cxHwcY62UjKbTdMATzZ8C1a59nDbue7Izg">
+<!-- Overlay action -->
+<div class="absolute inset-0 bg-primary/0 group-hover:bg-primary/5 transition-colors duration-500 flex items-center justify-center">
+<button class="opacity-0 group-hover:opacity-100 transition-opacity duration-500 font-label-sm text-label-sm uppercase tracking-widest bg-primary text-on-primary px-8 py-3">View Details</button>
+</div>
+</div>
+<div class="mt-8 text-center px-4">
+<h3 class="font-headline-md text-2xl text-primary mb-2">The Ovis Lounge</h3>
+<p class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-widest mb-4">Ivory Bouclé &amp; Brushed Brass</p>
+<p class="font-body-md text-[#C5A059]">$4,200</p>
+</div>
+</div>
+<!-- Spacer for asymmetrical look -->
+<div class="hidden md:block md:col-span-5"></div>
+<!-- Spacer -->
+<div class="hidden md:block md:col-span-3"></div>
+<!-- Product 2: Spans 5 cols, offset -->
+<div class="md:col-span-5 md:mt-32 product-card reveal-on-scroll">
+<div class="w-full aspect-[3/4] bg-surface-container overflow-hidden relative cursor-pointer group">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-[2000ms] ease-out" data-alt="A sleek, architectural floor lamp made of blackened steel and alabaster stone, standing in a vast, minimalist space with a light-mode ivory aesthetic. The light source emits a warm, subtle glow that highlights the natural veining of the stone. The composition is asymmetrical, capturing a quiet luxury mood typical of high-end editorial design." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBPIePgT8S_k54ZpIiFLh4Ml1lLVdtcuJQXZYKzP6bSr-v-wpp5NxdIqGTO1Zxhep_klFv56uiS602jzSmri1QBwCTL4pB064gWTX5Rqoi3vM-oyqAPvhyD8a8v8YtkAspy8foqEr90cwiQeqT2m5DczHhYoU4qDt_FkhQsjR9VrYCeaeCRip2CZpF-nSRayvm5LJmECDmPTvlY9F-IHd7HUQN9vWfPUaI9AdSvozNJ7ZfR8PVDCdJFSQ">
+<div class="absolute inset-0 bg-primary/0 group-hover:bg-primary/5 transition-colors duration-500 flex items-center justify-center">
+<button class="opacity-0 group-hover:opacity-100 transition-opacity duration-500 font-label-sm text-label-sm uppercase tracking-widest bg-primary text-on-primary px-8 py-3">View Details</button>
+</div>
+</div>
+<div class="mt-8 text-center px-4">
+<h3 class="font-headline-md text-2xl text-primary mb-2">Monolith Luminaire</h3>
+<p class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-widest mb-4">Alabaster &amp; Charcoal Steel</p>
+<p class="font-body-md text-[#C5A059]">$2,850</p>
+</div>
+</div>
+<div class="hidden md:block md:col-span-4"></div>
+<!-- Product 3: Full width banner style -->
+<div class="md:col-span-12 mt-stack-md product-card reveal-on-scroll">
+<div class="w-full aspect-[21/9] md:aspect-[21/7] bg-surface-container overflow-hidden relative cursor-pointer group">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-[2000ms] ease-out" data-alt="A wide, sweeping shot of a low-profile, modular sofa upholstered in deep charcoal velvet, positioned in the center of a bright, minimalist room with expansive white walls. The soft, directional natural light creates a dramatic interplay of light and shadow across the velvet texture. The overall aesthetic exudes calm, confidence, and timeless spatial discipline." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCx1oCz_4Z4cBet48N3XwYMcM6VYoZCSS4HRR9Peza9XE6UvXw5jJ8cWcjSVXEnQNsh69OWIw8kg6WDvyvqwFHT3pqCBXf91kwQU_lm6xSF_mU4YR1zd14O31d9b-KilXJUNzlAF-z_HAxzEaHyRk2hfDgJSGBKiQcUOKLYkhcAZpuYDqq3KN0wlwmpOf8FLkQ98eCdvjde4to2DZ8EK5VkE6vgoxpsl98_p-jOQUFaVUMR3ThH8pYS3A">
+<div class="absolute inset-0 bg-primary/0 group-hover:bg-primary/5 transition-colors duration-500 flex items-center justify-center">
+<button class="opacity-0 group-hover:opacity-100 transition-opacity duration-500 font-label-sm text-label-sm uppercase tracking-widest bg-primary text-on-primary px-8 py-3">View Details</button>
+</div>
+</div>
+<div class="mt-8 text-center px-4 max-w-2xl mx-auto">
+<h3 class="font-headline-md text-2xl text-primary mb-2">The Strata Sectional</h3>
+<p class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-widest mb-4">Charcoal Velvet</p>
+<p class="font-body-md text-[#C5A059]">$9,500</p>
+</div>
+</div>
+<!-- Product 4 & 5: Side by side -->
+<div class="md:col-span-6 product-card reveal-on-scroll">
+<div class="w-full aspect-[4/5] bg-surface-container overflow-hidden relative cursor-pointer group">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-[2000ms] ease-out" data-alt="A close-up, highly detailed editorial photograph of a minimalist side table crafted from solid, unpolished travertine marble, set against a pristine champagne-toned backdrop. The image focuses on the porous, organic texture of the stone contrasting with its sharp, geometric silhouette. The lighting is soft and natural, emphasizing a high-end, quiet luxury aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDeBNHBgmYffzab_u3n58RLfY4o_C7NlwSvb_8QQ3uEok1Z3Dy2OClRu2NbINFhrEP26dRfp-I9bjjHqBULtmkXP7nvKToM2IynFZ142rCoRa1vlmgwm_8DbLYO2XwQRq7KuSzCQJe_f2g0c1DGptP5Wbc_ik4w58JpWnvKpYPRPiC61eIe-QGJjmar23V9zbg8qI-5_Nh7nPPSrfOocSM_tefP-_8AJSgvbveu-keWROA6NReZkTQ-Mg">
+<div class="absolute inset-0 bg-primary/0 group-hover:bg-primary/5 transition-colors duration-500 flex items-center justify-center">
+<button class="opacity-0 group-hover:opacity-100 transition-opacity duration-500 font-label-sm text-label-sm uppercase tracking-widest bg-primary text-on-primary px-8 py-3">View Details</button>
+</div>
+</div>
+<div class="mt-8 text-center px-4">
+<h3 class="font-headline-md text-2xl text-primary mb-2">Petra Side Table</h3>
+<p class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-widest mb-4">Solid Travertine</p>
+<p class="font-body-md text-[#C5A059]">$1,400</p>
+</div>
+</div>
+<div class="md:col-span-6 md:mt-24 product-card reveal-on-scroll">
+<div class="w-full aspect-[4/5] bg-surface-container overflow-hidden relative cursor-pointer group">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-[2000ms] ease-out" data-alt="An elegant, understated dining chair featuring a slender, matte black metal frame and a seat upholstered in rich, camel-colored leather. The chair is placed in a stark, white, minimalist environment with a subtle tonal layering effect. The lighting highlights the fine grain of the leather, creating an atmosphere of exclusivity and superior craftsmanship." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBP1XMZ3jBGdzmixqmS_PU-hrGIVBHnk180tfXP0ooNlXjCFxDosKNeVepmhb-QPLMiLRipZpVrxpwqz95BnYQrBa6QcAtBZ77hf6x922R6z5XB-BJ0Ln3ct7fxFpktlGGMTP-_enEZ9epj050laTojCHnYRGMXbhxght9dxRapfcL9Bg5WHBy3gCUELN46yyfMwUYtX8n-g01YdBEDn2d610O9ylLW37mA3Wi-SL-Er79r_ZoXPjLcUQ">
+<div class="absolute inset-0 bg-primary/0 group-hover:bg-primary/5 transition-colors duration-500 flex items-center justify-center">
+<button class="opacity-0 group-hover:opacity-100 transition-opacity duration-500 font-label-sm text-label-sm uppercase tracking-widest bg-primary text-on-primary px-8 py-3">View Details</button>
+</div>
+</div>
+<div class="mt-8 text-center px-4">
+<h3 class="font-headline-md text-2xl text-primary mb-2">Linea Dining Chair</h3>
+<p class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-widest mb-4">Camel Leather &amp; Matte Iron</p>
+<p class="font-body-md text-[#C5A059]">$850</p>
+</div>
+</div>
+</div>
+<!-- Load More / Ledger Line -->
+<div class="mt-stack-xl border-t border-outline/10 pt-12 flex justify-center reveal-on-scroll">
+<button class="font-label-sm text-label-sm uppercase tracking-widest border-b border-primary pb-1 text-primary hover:opacity-50 transition-opacity duration-300">
+                Explore Further
+            </button>
+</div>
+</main>
+<!-- Footer -->
+<footer class="w-full border-t border-outline/20 bg-surface dark:bg-surface-container mt-stack-xl transition-all duration-300">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter px-margin-mobile md:px-margin-desktop py-stack-xl max-w-container-max mx-auto">
+<div class="md:col-span-4 flex flex-col justify-between mb-12 md:mb-0">
+<div class="font-display-xl text-headline-lg text-primary dark:text-on-surface mb-8">
+                    MAISON LUXE
+                </div>
+<div class="font-body-md text-body-md text-on-surface-variant">
+                    © 2024 MAISON LUXE. ALL RIGHTS RESERVED.
+                </div>
+</div>
+<div class="md:col-span-8 grid grid-cols-2 md:grid-cols-4 gap-8">
+<!-- Navigation derived from JSON links -->
+<div class="flex flex-col gap-4">
+<a class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant dark:text-outline hover:text-primary dark:hover:text-inverse-primary transition-colors duration-300" href="#">Sustainability</a>
+<a class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant dark:text-outline hover:text-primary dark:hover:text-inverse-primary transition-colors duration-300" href="#">Legal</a>
+</div>
+<div class="flex flex-col gap-4">
+<a class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant dark:text-outline hover:text-primary dark:hover:text-inverse-primary transition-colors duration-300" href="#">Care Guide</a>
+<a class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant dark:text-outline hover:text-primary dark:hover:text-inverse-primary transition-colors duration-300" href="#">Journal</a>
+</div>
+</div>
+</div>
+</footer>
+<script>
+        // Simple scroll reveal interaction
+        document.addEventListener('DOMContentLoaded', () => {
+            const reveals = document.querySelectorAll('.reveal-on-scroll');
+            
+            const revealOnScroll = () => {
+                const windowHeight = window.innerHeight;
+                const elementVisible = 150;
+                
+                reveals.forEach((reveal) => {
+                    const elementTop = reveal.getBoundingClientRect().top;
+                    if (elementTop < windowHeight - elementVisible) {
+                        reveal.classList.add('is-revealed');
+                    }
+                });
+            };
+
+            window.addEventListener('scroll', revealOnScroll);
+            // Trigger once on load
+            setTimeout(revealOnScroll, 100);
+        });
+    </script>
+</body></html>

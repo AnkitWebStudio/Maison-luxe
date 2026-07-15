@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Collection — MAISON LUXE</title>
+  <meta name="description" content="Browse the Maison Luxe collection. Curated objects of extraordinary craft — from sculptural lighting to bespoke seating." />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=block" rel="stylesheet" />
+  <script type="module" src="/src/main.js"></script>
+</head>
+<body>
+
+<!-- ── Navigation ───────────────────────────────────────── -->
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <ul class="nav-links">
+      <li><a href="/heritage.html" class="nav-link">Heritage</a></li>
+      <li><a href="/collection.html" class="nav-link">Collection</a></li>
+    </ul>
+    <a href="/index.html" class="nav-logo">MAISON LUXE</a>
+    <div class="nav-actions">
+      <ul class="nav-links">
+        <li><a href="/bespoke.html" class="nav-link">Bespoke</a></li>
+      </ul>
+      <button class="nav-icon" aria-label="Shopping bag">
+        <span class="material-symbols-outlined">shopping_bag</span>
+      </button>
+      <button class="nav-hamburger" id="navHamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+<div class="nav-mobile" id="navMobile">
+  <a href="/heritage.html" class="nav-link">Heritage</a>
+  <a href="/collection.html" class="nav-link">Collection</a>
+  <a href="/bespoke.html" class="nav-link">Bespoke</a>
+</div>
+
+<!-- ── Collection Header ─────────────────────────────────── -->
+<section class="collection-header">
+  <div class="container">
+    <div class="collection-title-row reveal">
+      <div>
+        <span class="section-eyebrow">Autumn — Winter 2024</span>
+        <h1 class="t-headline">The Collection</h1>
+      </div>
+      <div class="collection-filters">
+        <div class="filter-item">
+          <button class="filter-trigger">
+            <span class="filter-label-text">Category</span>
+            <span class="material-symbols-outlined">expand_more</span>
+          </button>
+          <div class="filter-dropdown">
+            <span class="filter-option">Seating</span>
+            <span class="filter-option">Tables</span>
+            <span class="filter-option">Lighting</span>
+            <span class="filter-option">Objects</span>
+            <span class="filter-option">Garments</span>
+          </div>
+        </div>
+        <div class="filter-item">
+          <button class="filter-trigger">
+            <span class="filter-label-text">Material</span>
+            <span class="material-symbols-outlined">expand_more</span>
+          </button>
+          <div class="filter-dropdown">
+            <span class="filter-option">Leather</span>
+            <span class="filter-option">Marble</span>
+            <span class="filter-option">Cashmere</span>
+            <span class="filter-option">Travertine</span>
+            <span class="filter-option">Steel</span>
+          </div>
+        </div>
+        <div class="filter-item">
+          <button class="filter-trigger">
+            <span class="filter-label-text">Collection</span>
+            <span class="material-symbols-outlined">expand_more</span>
+          </button>
+          <div class="filter-dropdown">
+            <span class="filter-option">Autumn — Winter</span>
+            <span class="filter-option">Spring — Summer</span>
+            <span class="filter-option">Archive</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Product Grid ──────────────────────────────────────── -->
+<section class="collection-grid">
+  <div class="container">
+    <div class="collection-product-grid">
+
+      <!-- Product 1 — 7 cols -->
+      <a class="product-card reveal col-7" href="/product.html">
+        <div class="product-img-wrap aspect-45">
+          <img
+            src="https://lh3.googleusercontent.com/aida-public/AB6AXuDOEOGUqAxzoKMisHXTbKVyRpuoc7Pp8qEbwDNiOw_xvupCKCieGRUq3BeWVzZCysWl5QtFgTk4ukQLOc6AWYYG0cL6I9Y2Xf_6mQDWEbd5tQ7d76JTOEXM0j3gX-fYFsb-4GPi0M40RruxKFw0e0fv1ePgGXo5SKD4bzrYicj1Id_v12PQt-e917E8GPV1O8yJM0x01dR8xi1_MjJc4W34cxHwcY62UjKbTdMATzZ8C1a59nDbue7Izg"
+            alt="The Ovis Lounge — Ivory Bouclé & Brushed Brass"
+            loading="lazy"
+          />
+          <div class="product-overlay">
+            <span class="product-overlay-btn">View Details</span>
+          </div>
+        </div>
+        <div class="product-info">
+          <div class="product-meta">
+            <div>
+              <p class="product-name">The Ovis Lounge</p>
+              <p class="product-material">Ivory Bouclé &amp; Brushed Brass</p>
+            </div>
+            <span class="product-price">$4,200</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- Spacer col -->
+      <div class="col-5" style="display:flex;align-items:flex-end;justify-content:flex-start;padding-bottom:24px;" aria-hidden="true">
+        <p class="t-body muted reveal reveal-delay-2" style="font-size:13px;letter-spacing:0.08em;max-width:240px;line-height:1.7;">
+          Each piece is conceived as a sculpture first — form dictated by materiality, function following beauty.
+        </p>
+      </div>
+
+      <!-- Product 2 — 5 cols, offset -->
+      <div class="col-3" aria-hidden="true"></div>
+      <a class="product-card reveal col-5 offset-top" href="/product.html">
+        <div class="product-img-wrap aspect-34">
+          <img
+            src="https://lh3.googleusercontent.com/aida-public/AB6AXuBPIePgT8S_k54ZpIiFLh4Ml1lLVdtcuJQXZYKzP6bSr-v-wpp5NxdIqGTO1Zxhep_klFv56uiS602jzSmri1QBwCTL4pB064gWTX5Rqoi3vM-oyqAPvhyD8a8v8YtkAspy8foqEr90cwiQeqT2m5DczHhYoU4qDt_FkhQsjR9VrYCeaeCRip2CZpF-nSRayvm5LJmECDmPTvlY9F-IHd7HUQN9vWfPUaI9AdSvozNJ7ZfR8PVDCdJFSQ"
+            alt="Monolith Luminaire — Alabaster & Charcoal Steel"
+            loading="lazy"
+          />
+          <div class="product-overlay">
+            <span class="product-overlay-btn">View Details</span>
+          </div>
+        </div>
+        <div class="product-info">
+          <div class="product-meta">
+            <div>
+              <p class="product-name">Monolith Luminaire</p>
+              <p class="product-material">Alabaster &amp; Charcoal Steel</p>
+            </div>
+            <span class="product-price">$2,850</span>
+          </div>
+        </div>
+      </a>
+      <div class="col-4" aria-hidden="true"></div>
+
+      <!-- Product 3 — Full Width Banner -->
+      <a class="product-card reveal col-12" href="/product.html">
+        <div class="product-img-wrap" style="aspect-ratio:21/7;">
+          <img
+            src="https://lh3.googleusercontent.com/aida-public/AB6AXuCx1oCz_4Z4cBet48N3XwYMcM6VYoZCSS4HRR9Peza9XE6UvXw5jJ8cWcjSVXEnQNsh69OWIw8kg6WDvyvqwFHT3pqCBXf91kwQU_lm6xSF_mU4YR1zd14O31d9b-KilXJUNzlAF-z_HAxzEaHyRk2hfDgJSGBKiQcUOKLYkhcAZpuYDqq3KN0wlwmpOf8FLkQ98eCdvjde4to2DZ8EK5VkE6vgoxpsl98_p-jOQUFaVUMR3ThH8pYS3A"
+            alt="The Strata Sectional — Charcoal Velvet"
+            loading="lazy"
+          />
+          <div class="product-overlay">
+            <span class="product-overlay-btn">View Details</span>
+          </div>
+        </div>
+        <div class="product-info" style="text-align:center;padding-top:28px;">
+          <p class="product-name" style="font-size:24px;">The Strata Sectional</p>
+          <p class="product-material">Charcoal Velvet — Modular</p>
+          <p class="product-price" style="margin-top:8px;">$9,500</p>
+        </div>
+      </a>
+
+      <!-- Products 4 & 5 — Side by Side -->
+      <a class="product-card reveal col-6" href="/product.html">
+        <div class="product-img-wrap aspect-45">
+          <img
+            src="https://lh3.googleusercontent.com/aida-public/AB6AXuDeBNHBgmYffzab_u3n58RLfY4o_C7NlwSvb_8QQ3uEok1Z3Dy2OClRu2NbINFhrEP26dRfp-I9bjjHqBULtmkXP7nvKToM2IynFZ142rCoRa1vlmgwm_8DbLYO2XwQRq7KuSzCQJe_f2g0c1DGptP5Wbc_ik4w58JpWnvKpYPRPiC61eIe-QGJjmar23V9zbg8qI-5_Nh7nPPSrfOocSM_tefP-_8AJSgvbveu-keWROA6NReZkTQ-Mg"
+            alt="Petra Side Table — Solid Travertine"
+            loading="lazy"
+          />
+          <div class="product-overlay">
+            <span class="product-overlay-btn">View Details</span>
+          </div>
+        </div>
+        <div class="product-info">
+          <div class="product-meta">
+            <div>
+              <p class="product-name">Petra Side Table</p>
+              <p class="product-material">Solid Travertine</p>
+            </div>
+            <span class="product-price">$1,400</span>
+          </div>
+        </div>
+      </a>
+
+      <a class="product-card reveal reveal-delay-2 col-6 offset-top-sm" href="/product.html">
+        <div class="product-img-wrap aspect-45">
+          <img
+            src="https://lh3.googleusercontent.com/aida-public/AB6AXuBP1XMZ3jBGdzmixqmS_PU-hrGIVBHnk180tfXP0ooNlXjCFxDosKNeVepmhb-QPLMiLRipZpVrxpwqz95BnYQrBa6QcAtBZ77hf6x922R6z5XB-BJ0Ln3ct7fxFpktlGGMTP-_enEZ9epj050laTojCHnYRGMXbhxght9dxRapfcL9Bg5WHBy3gCUELN46yyfMwUYtX8n-g01YdBEDn2d610O9ylLW37mA3Wi-SL-Er79r_ZoXPjLcUQ"
+            alt="Linea Dining Chair — Camel Leather & Matte Iron"
+            loading="lazy"
+          />
+          <div class="product-overlay">
+            <span class="product-overlay-btn">View Details</span>
+          </div>
+        </div>
+        <div class="product-info">
+          <div class="product-meta">
+            <div>
+              <p class="product-name">Linea Dining Chair</p>
+              <p class="product-material">Camel Leather &amp; Matte Iron</p>
+            </div>
+            <span class="product-price">$850</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- Products 6 & 7 -->
+      <a class="product-card reveal col-4" href="/product.html">
+        <div class="product-img-wrap" style="aspect-ratio:3/4;">
+          <img
+            src="https://lh3.googleusercontent.com/aida-public/AB6AXuDpV9oQZ8CbaS7Ik3iV0hFofYCzxlgJ5HiblGXXyZXbf5l6hSC1v40GDn0Az8hQNOb-2h_9dMq2IAiY2FABBA3LoTHrgZE6FzEP4EZ9nMI-3wPKwnJjT6IuEOnKuTZH6usWcO-MIlNer_jxQe1rO-4Ejr90-rMn7LQWPpk7b_-vg5unmL4TeGXTxWcuqVb97cfzXeQwQUMr_Bz1nvjA03APh6h-FOGhMgCPWm6QMznYXOnRnTXtnwNWeA"
+            alt="The Aris Tote — Noir Pebble Leather"
+            loading="lazy"
+          />
+          <div class="product-overlay">
+            <span class="product-overlay-btn">View Details</span>
+          </div>
+        </div>
+        <div class="product-info">
+          <div class="product-meta">
+            <div>
+              <p class="product-name">The Aris Tote</p>
+              <p class="product-material">Noir Pebble Leather</p>
+            </div>
+            <span class="product-price">$1,250</span>
+          </div>
+        </div>
+      </a>
+
+      <div class="col-4 offset-top" style="display:flex;align-items:flex-end;padding-bottom:24px;" aria-hidden="true">
+        <blockquote class="reveal" style="border-left:1px solid var(--gold);padding-left:20px;">
+          <p class="t-body muted" style="font-size:14px;font-style:italic;line-height:1.8;">
+            "We do not make things quickly. We make things that last."
+          </p>
+          <footer class="t-label gold" style="font-size:9px;margin-top:12px;">— The Atelier</footer>
+        </blockquote>
+      </div>
+
+      <a class="product-card reveal reveal-delay-3 col-4 offset-top-sm" href="/product.html">
+        <div class="product-img-wrap" style="aspect-ratio:3/4;">
+          <img
+            src="https://lh3.googleusercontent.com/aida-public/AB6AXuDCqJBEeSIlzX-yvsULcptAFIjlL3x9alk5oGdjpNryDO4a3Yg9BCm_WJL9q0_R6Y7Gzk8YqlwmiGrEmSSUjZGLIUEO6BsiMD3ux5biJKXGekq6S9v8rHcz3HfswY7WzTLx3-8a3K3_8JvnxTqMXHxMlRnXsqacKAKa5BFpHejvGtfuSyZjDxyNEFRgzbcEaz5OqjvOZbYspbB5QLkFlIa2YaMVt6H38hLCvTtBaqRGEhyfT9lFsUPcCw"
+            alt="Structural Vase — Matte Bone Ceramic"
+            loading="lazy"
+          />
+          <div class="product-overlay">
+            <span class="product-overlay-btn">View Details</span>
+          </div>
+        </div>
+        <div class="product-info">
+          <div class="product-meta">
+            <div>
+              <p class="product-name">Structural Vase</p>
+              <p class="product-material">Matte Bone Ceramic</p>
+            </div>
+            <span class="product-price">$480</span>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <!-- Explore More -->
+    <div class="explore-more reveal">
+      <button class="btn btn-ghost" style="font-size:11px;letter-spacing:0.22em;">
+        Explore Further
+        <span class="material-symbols-outlined" style="font-size:16px;font-variation-settings:'wght' 300;">expand_more</span>
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- ── Footer ────────────────────────────────────────────── -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-main">
+      <div>
+        <a href="/index.html" class="footer-logo">MAISON LUXE</a>
+        <p class="footer-tagline">Defining the intersection of minimalist design and uncompromising quality.</p>
+      </div>
+      <div class="footer-nav-cols">
+        <div>
+          <span class="footer-nav-col-title">Explore</span>
+          <a href="/heritage.html" class="footer-link">Heritage</a>
+          <a href="/collection.html" class="footer-link">Collection</a>
+          <a href="/bespoke.html" class="footer-link">Bespoke</a>
+        </div>
+        <div>
+          <span class="footer-nav-col-title">Company</span>
+          <a href="#" class="footer-link">Sustainability</a>
+          <a href="#" class="footer-link">Care Guide</a>
+          <a href="#" class="footer-link">Journal</a>
+        </div>
+        <div>
+          <span class="footer-nav-col-title">Legal</span>
+          <a href="#" class="footer-link">Privacy</a>
+          <a href="#" class="footer-link">Terms</a>
+          <a href="#" class="footer-link">Cookies</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="footer-copy">© 2024 MAISON LUXE. ALL RIGHTS RESERVED.</p>
+      <div class="footer-socials">
+        <a href="#" class="footer-social">Instagram</a>
+        <a href="#" class="footer-social">Pinterest</a>
+        <a href="#" class="footer-social">Journal</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
